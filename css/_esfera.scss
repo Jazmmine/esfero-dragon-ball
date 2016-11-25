@@ -1,6 +1,6 @@
 @mixin star($tamanio-estrella:$base-tamanio-estrella) {
    .star-five {
-      margin: $tamanio-estrella+10 $tamanio-estrella+2;  
+      margin: $tamanio-estrella/2 0; 
       position: relative;
       display: block;
       color: $color-estrella;
