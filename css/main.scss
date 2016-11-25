@@ -11,16 +11,9 @@ body{
 	 height: 100px;
 
 }
-
-<<<<<<< HEAD
-.container-circule{
-	@include on-circule($item-count: 7, $circle-size: 20em, $item-size: 6em); 
-  	margin: 5em auto 0;
-=======
 .container-circle{
 	@include on-circule($item-count: 7, $circle-size: 20em, $item-size: 6em); 
   	margin: 6rem auto 0;
->>>>>>> gh-pages
 	.esfera{
 		background: $color-esfera;
 		border-radius: $base-tamanio-esfera/2;
