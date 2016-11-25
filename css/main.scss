@@ -4,9 +4,8 @@
 
 
 .container-circule{
-	@include on-circule($item-count: 8, $circle-size: 20em, $item-size: 6em); 
+	@include on-circule($item-count: 7, $circle-size: 20em, $item-size: 6em); 
   	margin: 5em auto 0;
-  	border: solid 5px tomato;
 	.esfera{
 		background: $color-esfera;
 		border-radius: 50%;
